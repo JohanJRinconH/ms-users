@@ -1,0 +1,15 @@
+# @name POST Usuarios
+POST http://localhost:8080/usuarios/registrar
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "mail@web.com",
+  "password": "12345678s/A",
+  "phones": [{
+    "number": "12341236",
+    "citycode": "9",
+    "countrycode": "56"
+    }]
+}
+
